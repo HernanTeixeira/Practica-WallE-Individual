@@ -1,0 +1,21 @@
+header img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: solid 20px #1244a1;
+}
+
+h1, h2{
+    font-family: 'Righteous', cursive;
+    color: #fcc41c;
+}
+
+.bg-primary{
+    background-color: #fcc41c !important;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+

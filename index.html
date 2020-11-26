@@ -13,27 +13,99 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Mi CSS-->
-
+    <link rel="stylesheet" href="css/wallE-individual.css">
     <title>Hello, world!</title>
 </head>
 
 <body>
 
-    <header class="jumbotron text-center">
-        <img src="Images/Wall-E.jpg">
-        <h1 class="display-4">Wall-E</h1>
+    <header class="jumbotron text-center bg-primary">
+        <img class="rounded-circle" src="Images/Wall-E.jpg">
+        <h1 class="display-4 text-white">Wall-E</h1>
 
     </header>
 
     <main class="container">
         <h1>Sobre</h1>
-    <p>Wall-E é um robot insdustrial, que vive sozinho e cuja missão é limpar o lixo tóxico que a humanidade acumulou ao longo de séculos. Por seres um ermita, ao longo dos anos, foi desenvolvendo uma personalidade muito especial</p>
-    <img class="img-fluid" src="Images/Wall-E and EVE.jpg">
-    <p>Wall-E e EVE num momento brilhante</p>
+        <p>Wall-E é um robot insdustrial, que vive sozinho e cuja missão é limpar o lixo tóxico que a humanidade
+            acumulou ao longo de séculos. Por seres um ermita, ao longo dos anos, foi desenvolvendo uma personalidade
+            muito especial</p>
+        <img class="img-fluid" src="Images/Wall-E and EVE.jpg">
+        <p>Wall-E e EVE num momento brilhante</p>
 
-  <h2>Traços</h2>
-  
+        <h2>Traços</h2>
+        <div class="row">
+            <div class="col-12 text-center">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item w-100 bg-primary">Organizado</li>
+                    <li class="list-group-item w-100">Incansável</li>
+                    <li class="list-group-item w-100 bg-primary">Altruista</li>
+                    <li class="list-group-item w-100">Romântico</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Amigos</h2>
+        <p>Apesar de ter vivido sozinho durante muito e muito tempo, Wall-E, na usa derradeira aventura, fez vários
+            amigos como:</p>
+        <div class="row">
+            <!--AQUI EMPIEZA LA PRIMERA CARTA DE PERSONAJE-->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://static.wikia.nocookie.net/pixar/images/c/ca/Eve_wall%E2%80%A2e_clipped_rev_1.png/revision/latest/scale-to-width-down/310?cb=20131115143452"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">EVE</h5>
+                        <p class="card-text">She is an advanced probe droid. Numbered "01" by AUTO from the Axiom, EVE
+                            is one of several robots who are sent to Earth on a scanning mission.</p>
+                        <a href="#" class="btn btn-primary">Conhece a EVE</a>
+                    </div>
+                </div>
+            </div>
+            <!--AQUI EMPIEZA LA SEGUNDA CARTA DE PERSONAJE-->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MO (No me acuerdo)</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Conhece ao MO</a>
+                    </div>
+                </div>
+            </div>
+            <!--AQUI EMPIEZA LA TERCERA CARTA DE PERSONAJE-->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capitão</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Conhece ao Capitão</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-3">Contacta o Wall-E</h2>
+        <form class="border p-3 mb-4">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Nome</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </main>
+    <footer class="bg-primary">Trabalho realizado no âmbito da disciplina de Programação II, Licenciatura em Multimédia © 2020</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
